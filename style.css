@@ -6,11 +6,12 @@
     padding: 0;
 }
 
+/*Header*/
 li, a {
     font-family: "roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #f9faf8;
     text-decoration: none;
 }
 
@@ -18,8 +19,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-    
+    padding: 20px 10%;
+    background-color: #1f2937;
 }
 
 .logo {
@@ -42,4 +43,43 @@ header {
 
 .nav_links li a:hover {
     color: #0088a9;
+}
+
+/*Section 1*/
+.content {
+    background: #1f2937;
+    display: flex;
+    padding: 20px 10%;
+}
+
+.contentleft {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 10px
+    
+}
+
+.contentright img {
+    height: 200px;
+    width: auto;
+}
+
+.contentleft button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
 }
