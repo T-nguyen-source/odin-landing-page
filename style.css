@@ -84,7 +84,7 @@ header {
     font-weight: bold;
 }
 
-/*section 3 */
+/*section 2 */
 .content2 p, .content2 h2 {
     text-align: center;
 }
@@ -99,7 +99,8 @@ header {
 .images4 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
+    padding-bottom: 100px;
 }
 .images4 img {
     width: 200px;
@@ -108,4 +109,68 @@ header {
     border: 4px solid #3882F6;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
+}
+
+/* section 3 */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* section 4 */
+.followus {
+    background-color: #3882F6;
+    margin: 50px 300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.followtext {
+    text-align: left;
+    margin-right: auto;  /* Add this line */
+}
+
+.followtext p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.followbutton button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-right: 200px;
 }
