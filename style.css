@@ -83,3 +83,29 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*section 3 */
+.content2 p, .content2 h2 {
+    text-align: center;
+}
+
+.content2 h2 {
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.images4 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
